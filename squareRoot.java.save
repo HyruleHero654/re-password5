@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class squareRoot {
+	public static void main(String args[]) {
+		//KeyController kC=new KeyController(Canvas.getInstance(), new starter());
+		Scanner test=new Scanner(System.in);
+		System.out.println("Please enter a number: ");
+		double numb=test.nextDouble();
+		System.out.println(numb);
+	}
+	public static double sqrRoot(int a)
+	{
+	t b=1;
+		while(true)
+		{
+			if(int b
+		}
+	}
+}
