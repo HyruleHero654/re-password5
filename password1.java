@@ -1,21 +1,21 @@
 import java.util.Scanner;
 public class password1{
-	public static void main(String args[]){
-		Scanner a=new Scanner(System.in);
-		String answer="c";
-		System.out.println("Enter the password (it is a single, lowercase letter): ");
-		String in=a.nextLine();
-		if(in.length()>1)
+	public static void main(String[] args){
+		Scanner in=new Scanner(System.in);
+//		String answer="g";
+		System.out.println("Enter the password: ");
+//		System.out.println(ent);
+		for(int x=0;x<5;x++)
 		{
-			System.out.println("I said the password is a single, lowercase letter!");
-		}
-		else if(in.equals(answer))
-		{
-			System.out.println("login correct");
-		}
-		else
-		{
-			System.out.println("login incorrect");
+			String ent=in.nextLine();
+			if(ent.equals("ffcs"))
+			{
+				System.out.println("login correct");
+				break;
+			}
+			else{
+				System.out.println("login incorrect");
+			}
 		}
 	}
 }
